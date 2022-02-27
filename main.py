@@ -1,7 +1,7 @@
 import json
 from copy import deepcopy
 
-import openpyxl as openpyxl
+import openpyxl
 from openpyxl.styles import Alignment, Color, PatternFill, Border, Side
 
 wb = openpyxl.Workbook()
@@ -63,10 +63,14 @@ for index, i in enumerate(horasS):
             actualI[j] = index + 2
             actual[j] = horas[i][j]
     hoja.append(
-        (":".join(i.split(":")[:2]), horas[i]['lunes'], horas[i]['martes'], horas[i]['miercoles'], horas[i]['jueves'], horas[i]['viernes']))
+        (":".join(i.split(":")[:2]), horas[i]['lunes'], horas[i]['martes'], horas[i]['miercoles'], horas[i]['jueves'],
+         horas[i]['viernes']))
+    hoja.cell(index + 2, 1).border = Border(
+        top=Side(style='thin'),
+        bottom=Side(style='thin'))
     for m in horas[i].keys():
+        cell = hoja.cell(index + 2, listaDia.index(m) + 2)
         if horas[i][m] != "":
-            cell = hoja.cell(index + 2, listaDia.index(m) + 2)
             cell.fill = PatternFill(patternType='solid',
                                     fill_type='solid',
                                     fgColor=Color(colores[grupos[horas[i][m]]]))
@@ -74,6 +78,19 @@ for index, i in enumerate(horasS):
                                  right=Side(style='thin'),
                                  top=Side(style='thin'),
                                  bottom=Side(style='thin'))
+        else:
+            if listaDia.index(m) == len(listaDia) - 1:
+                cell.border = Border(right=Side(style='thin'),
+                                     top=Side(style='thin'),
+                                     bottom=Side(style='thin'))
+            elif listaDia.index(m) == 0:
+                cell.border = Border(left=Side(style='thin'),
+                                     top=Side(style='thin'),
+                                     bottom=Side(style='thin'))
+            else:
+                cell.border = Border(
+                    top=Side(style='thin'),
+                    bottom=Side(style='thin'))
 for i in merges.values():
     hoja.merge_cells(start_row=i["start_row"], start_column=i["start_column"], end_row=i["end_row"],
                      end_column=i["end_column"])

@@ -1,0 +1,207 @@
+{
+  "utu": {
+    "lunes": [
+      {
+        "nombre": "2°L",
+        "inicio": "12:05",
+        "final": "12:50"
+      }
+    ],
+    "martes": [
+      {
+        "nombre": "3°P",
+        "inicio": "07:00",
+        "final": "07:45"
+      },
+      {
+        "nombre": "3°P",
+        "inicio": "07:50",
+        "final": "08:30"
+      },
+      {
+        "nombre": "1°D",
+        "inicio": "08:30",
+        "final": "09:10"
+      },
+      {
+        "nombre": "1°D",
+        "inicio": "09:15",
+        "final": "09:55"
+      },
+      {
+        "nombre": "1°B",
+        "inicio": "09:55",
+        "final": "10:35"
+      },
+      {
+        "nombre": "1°B",
+        "inicio": "10:40",
+        "final": "11:20"
+      },
+      {
+        "nombre": "1°B",
+        "inicio": "11:20",
+        "final": "12:00"
+      },
+      {
+        "nombre": "1°B",
+        "inicio": "12:05",
+        "final": "12:50"
+      }
+    ],
+    "miercoles": [
+      {
+        "nombre": "1°E",
+        "inicio": "09:15",
+        "final": "09:55"
+      },
+      {
+        "nombre": "1°E",
+        "inicio": "09:55",
+        "final": "10:35"
+      },
+      {
+        "nombre": "1°C",
+        "inicio": "10:40",
+        "final": "11:20"
+      },
+      {
+        "nombre": "1°C",
+        "inicio": "11:20",
+        "final": "12:00"
+      }
+    ],
+    "jueves": [
+      {
+        "nombre": "1°G",
+        "inicio": "13:35",
+        "final": "14:15"
+      },
+      {
+        "nombre": "1°G",
+        "inicio": "14:20",
+        "final": "15:00"
+      },
+      {
+        "nombre": "1°F",
+        "inicio": "15:00",
+        "final": "15:40"
+      },
+      {
+        "nombre": "1°F",
+        "inicio": "15:45",
+        "final": "16:25"
+      },
+      {
+        "nombre": "2°L",
+        "inicio": "16:25",
+        "final": "17:05"
+      },
+      {
+        "nombre": "2°L",
+        "inicio": "17:10",
+        "final": "17:55"
+      }
+    ],
+    "viernes": [
+    ]
+  },
+  "liceo 2": {
+    "lunes": [
+      {
+        "nombre": "1°1",
+        "inicio": "07:15",
+        "final": "08:35"
+      },
+      {
+        "nombre": "1°2",
+        "inicio": "08:40",
+        "final": "09:25"
+      },
+      {
+        "nombre": "1°3",
+        "inicio": "09:30",
+        "final": "10:15"
+      },
+      {
+        "nombre": "1°6",
+        "inicio": "13:30",
+        "final": "14:50"
+      },
+      {
+        "nombre": "1°7",
+        "inicio": "14:55",
+        "final": "15:40"
+      },
+      {
+        "nombre": "Cord",
+        "inicio": "18:05",
+        "final": "19:35"
+      }
+    ],
+    "martes": [
+      {
+        "nombre": "1°7",
+        "inicio": "13:30",
+        "final": "14:50"
+      },
+      {
+        "nombre": "1°9",
+        "inicio": "14:55",
+        "final": "15:40"
+      },
+      {
+        "nombre": "1°8",
+        "inicio": "15:45",
+        "final": "16:30"
+      }
+    ],
+    "miercoles": [],
+    "jueves": [],
+    "viernes": [
+      {
+        "nombre": "1°2",
+        "inicio": "07:15",
+        "final": "08:35"
+      },
+      {
+        "nombre": "1°1",
+        "inicio": "08:40",
+        "final": "09:25"
+      },
+      {
+        "nombre": "1°3",
+        "inicio": "10:25",
+        "final": "11:45"
+      },
+      {
+        "nombre": "1°9",
+        "inicio": "13:30",
+        "final": "14:50"
+      },
+      {
+        "nombre": "1°6",
+        "inicio": "15:45",
+        "final": "16:30"
+      },
+      {
+        "nombre": "1°8",
+        "inicio": "16:40",
+        "final": "18:00"
+      }
+    ]
+  },
+  "liceo 1": {
+    "lunes": [],
+    "martes": [],
+    "miercoles": [
+      {
+        "nombre": "Liceo 1",
+        "inicio": "14:50",
+        "final": "16:10"
+      }
+    ],
+    "jueves": [],
+    "viernes": []
+  }
+}
